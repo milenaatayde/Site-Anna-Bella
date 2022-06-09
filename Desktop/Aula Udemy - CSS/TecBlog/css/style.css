@@ -1,0 +1,137 @@
+/*LIMPAR FORMATAÇÕES PADRÃO*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: rgb(235, 234, 234) ;
+     
+   
+}
+
+header {
+    background-color: #f7b600 ;
+    padding: 15px;
+    text-align: center;
+  
+   
+}
+
+h1, nav {
+    padding: 10px;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+
+main {
+    width: 920px; /* ESSA É UMA LARGURA AMPLAMENTE UTILIZADA NO MERCADO*/
+    margin: 0 auto;
+    
+    padding: 15px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+#container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#postagens {
+     width: 660px;
+     float: left;
+}
+
+
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+
+#lateral h3 {
+    background-color: rgb(221, 220, 220);
+    color: #565656;
+    margin: 6px ;
+    margin-top: 10px;
+}
+
+#lateral p  {
+    margin: 6px;
+}
+#lateral a {
+    margin: 6px;
+    color: #f7b600;
+}
+#lateral a:hover {
+    color: white;
+    background: #ffd255;
+    padding: 0.2em;
+}
+
+#postagemLateral {
+    border-bottom: 1px dotted #ccc;
+}
+
+#lateral {
+    font-size: 0.9em;
+    border-bottom: 2px dotted #ccc;
+    width: 240px;
+    float: right;
+    background: white;
+    padding: 2px;
+    margin: -10px;
+    margin-top: -14px;
+    
+}
+
+/*FORMATAÇÃO DO MENU*/
+
+a {
+    text-decoration: none;
+}
+
+header a:link, header a:visited {
+    color: white;
+    padding: 8px 12px ;
+}
+
+
+
+header a:hover {
+    color: #f7b600;
+    background: white;
+}
+
+.post a:link, .post a:visited
+{
+    color: #f7b600;
+}
+
+/*FORMATAÇÃO EM GERAL*/
+h1 {
+    color: #4e4e4e ;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: white;
+}
+.cinza {
+    color: rgb(148, 144, 144);
+    font-size: 0.9em;
+}
